@@ -6,7 +6,7 @@ A simple interface for [sherlock-project/sherlock](https://github.com/sherlock-p
 
 ## Instalation
 
-Just download the `.zip`, unpack all contents in a safe space and run the `.exe`.
+Head to [releases](https://github.com/Lopoi/watson/releases) and download the `.zip`, unpack all contents in a safe space and run the `.exe`.
 
 I could upload a single `.exe` but it will just trigger anti-viruses. ~~If anyone knows how to fix that, feel free to~~
 
