@@ -21,11 +21,14 @@ class TextRedirector:
 
 
 class ConsoleApp:
-    def __init__(self, master):
-        self.master = master
+    def __init__(self, window):
+        self.window = window
+        
+        self.title = ttk.Label(self.window, text="Results: ")
+        self.title.pack(pady=5)
 
         # Create a Text widget for console output
-        self.console_output = scrolledtext.ScrolledText(master, wrap=tk.WORD)
+        self.console_output = scrolledtext.ScrolledText(self.window, wrap=tk.WORD)
         self.console_output.pack(padx=10, pady=10, fill="both")
 
         # Redirect stdout to the Text widget
@@ -36,5 +39,5 @@ class ConsoleApp:
         print("Type a username and press search!")
         print("The screen may freeze during the search. (its a feature)")
         
-        clear_button = ttk.Button(master, text="Clear Results", command=self.text_redirector.clear_console, bootstyle=DANGER)
+        clear_button = ttk.Button(self.window, text="Clear Results", command=self.text_redirector.clear_console, bootstyle=DANGER)
         clear_button.pack(pady=5)
