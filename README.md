@@ -18,6 +18,10 @@ After opening, just type in the name and begin te search.
 
 Well, not really, but I couldn't find a way to fix that, so just be patient, nothing bad is happening ~~(I hope)~~
 
+## Full Example
+
+![FullExample](https://github.com/lopoi/watson/blob/main/full_example.png?raw=true)
+
 ## Why did you make this?
 
 Honestly, just cause I wanted to see if I could. My main goals with this was:
@@ -30,7 +34,8 @@ Honestly, just cause I wanted to see if I could. My main goals with this was:
 
 I have a few things I want to do with this ~~(for learning)~~:
 
-- [ ] Add checkbox with the flag options.
+- [x] Add checkbox with the flag options.
+- [ ] Make option inputs work (yeah forgot that bit)
 - [ ] Make the output a bit prettier (maybe actually parse it?)
 - [ ] Fix the lag (I dont think I can)
 - [x] Eat cake
