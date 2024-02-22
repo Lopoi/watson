@@ -27,6 +27,8 @@ class Watson:
         for flag in flags.flags:
             if self.option_values[flag["name"]].get():
                 args.append(flag["name"])
+                if(flag.get("text")):
+                    args.append(self.option_params[flag["name"]].get())
         sys.argv = args
 
     def print_command(self):
