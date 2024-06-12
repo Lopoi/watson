@@ -7,12 +7,8 @@ from console import *
 from options import *
 import flags as flags
 
-#folder_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'sherlock/sherlock'))
-folder_path = os.path.join(sys._MEIPASS, 'sherlock/sherlock') if hasattr(sys, '_MEIPASS') else 'sherlock/sherlock'
-sys.path.append(folder_path)
 import sherlock
 from result import QueryResult
-sys.path.remove(folder_path)
 
 class Watson:
     def __init__(self, window):
