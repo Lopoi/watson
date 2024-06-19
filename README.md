@@ -34,7 +34,7 @@ I have a few things I want to do with this ~~(for learning)~~:
 
 - [x] Add checkbox with the flag options.
 - [ ] Make option inputs work (yeah forgot that bit)
-- [ ] Make the output a bit prettier (maybe actually parse it?)
+- [x] Make the output a bit prettier (maybe actually parse it?)
 - [ ] Fix the lag (I dont think I can)
 - [x] Eat cake
 
