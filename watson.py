@@ -12,7 +12,7 @@ from sherlock_project import sherlock
 class Watson:
     def __init__(self, window):
         self.window = window
-        self.window.title("Watson")
+        self.window.title("Watson v0.4.0")
 
         self.build_gui()
 
