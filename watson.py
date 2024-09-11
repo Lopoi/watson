@@ -7,8 +7,7 @@ from console import *
 from options import *
 import flags as flags
 
-import sherlock
-from result import QueryResult
+from sherlock_project import sherlock
 
 class Watson:
     def __init__(self, window):
