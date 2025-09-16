@@ -12,7 +12,7 @@ from sherlock_project import sherlock
 class Watson:
     def __init__(self, window):
         self.window = window
-        self.window.title("Watson v0.4.0")
+        self.window.title("Watson v0.4.1")
 
         self.build_gui()
 
@@ -30,7 +30,6 @@ class Watson:
         self.prepare_command()
         print("Command: ")
         print(" ".join(sys.argv))
-        #print("Why are you even here?")
 
     def search_user(self):
         print("Preparing to search username...")
